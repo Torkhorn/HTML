@@ -1,0 +1,122 @@
+html, body
+{
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after
+{
+	box-sizing: border-box;
+}
+
+.container
+{
+	width: 100%
+}
+.clearfix
+{
+	clear: both;
+}
+
+.col
+{
+	margin:0;
+	padding:0;
+	float: left;
+	text-align: center;
+	display: inline-block;
+}
+
+.col-xs1
+{
+	width: 8.33%;
+}
+
+.col-xs2
+{
+	width: 16.66%
+}
+
+.col-xs3
+{
+	width: 24.99%;
+}
+
+.col-xs4
+{
+	width: 33.32%;
+}
+
+.col-xs5
+{
+	width: 41.65%;
+}
+
+.col-xs6
+{
+	width: 49.98%;
+}
+
+.col-xs7
+{
+	width: 58.31%;
+}
+
+.col-xs8
+{
+	width: 66.64%;
+}
+
+.col-xs9
+{
+	width: 74.97%;
+}
+
+.col-xs10
+{
+	width: 83.3%;
+}
+
+.col-xs11
+{
+	width: 91.63%;
+}
+
+.col-xs12
+{
+	width: 100%;
+}
+
+.row
+{
+	width: 100%;
+}
+
+@media (min-width: 768px)
+{
+	.col-sm6
+	{
+		width: 49.98%;
+	}
+}
+
+
+@media (min-width: 982px)
+{
+	.col-md3
+	{
+		width: 33.32%;
+	}
+}
+
+@media (min-width: 1200px)
+{
+	.col-lg1
+	{
+		width: 8.33%;
+	}
+}

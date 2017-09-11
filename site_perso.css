@@ -1,0 +1,139 @@
+html
+{
+	width: 100vw;
+	height: 100vh;
+}
+
+
+#menu
+{
+	float: right;
+	font-size: 1.5em;
+}
+
+#owl
+{
+	float: left;
+}
+
+#toad
+{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#toadimg
+{
+	width: 300px;
+	height: 300px;
+}
+
+.really
+{
+	background: url(okay.png) no-repeat;
+	background-size: contain;
+	width: 50px;
+	height: 50px;
+}
+
+.presse
+{
+	width: 100%;
+	height: auto;
+	background-color: lightblue;
+	border: 1px solid black;
+	padding: 20px;
+	margin: 5px;
+}
+
+
+.clearfix
+{
+	clear: both;
+}
+
+@media (max-width: 640px)
+{
+		.really
+		{
+			background: url(wait.png) no-repeat;
+			background-size: contain;
+		}
+
+		.presse
+		{
+			float: left;
+			width: 45%;
+			background-color: honeydew;
+			border: 1px solid black;
+			margin: 5px;
+			padding: 2px;
+
+		}
+}
+
+@media (max-width: 495px)
+{
+		.really
+		{
+			background: url(really.jpg) no-repeat;
+			background-size: contain;
+			width: 65px;
+			height: 65px;
+		}
+
+		.presse
+		{
+			float: left;
+			width: 25%;
+		}
+}
+
+@media (max-width: 300px)
+{
+		#owl
+		{
+			width: 15%;
+			height: 15%;
+		}
+
+		#toadimg
+		{
+			width: 50%;
+			height: 50%;
+		}
+
+		.presse
+		{
+			width: 100%;
+			background-color: red;
+		/*	padding: 10px;
+			margin: 2px;*/
+		}
+
+		.really
+		{
+			width: 150px;
+			height: 113px;
+			background: url(fuuu.jpg) no-repeat;
+			background-size: contain;
+		}
+
+		.clearfix
+		{
+			clear: both;
+		}
+
+		/*.presse
+		{
+			float: left;
+			width: 100%;
+			background-color: honeydew;
+			border: 1px solid black;
+			margin: 10px;
+			padding: 2px;
+
+		}*/
+
+}
